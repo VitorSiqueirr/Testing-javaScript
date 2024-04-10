@@ -1,0 +1,39 @@
+{
+  "name": "testando-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "shuffle": "node --loader babel-register-esm scripts/shuffle.js",
+    "capitalize": "node --loader babel-register-esm scripts/capitalize.js",
+    "getRandomItem": "node --loader babel-register-esm scripts/getRandomItem.js",
+    "listPosts": "node --loader babel-register-esm scripts/listPosts.js",
+    "showSinglePost": "node --loader babel-register-esm scripts/showSinglePost.js",
+    "getProp": "node --loader babel-register-esm scripts/getProp.js",
+    "group": "node --loader babel-register-esm scripts/group.js",
+    "math": "node --loader babel-register-esm scripts/math.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/codeminer-42/trainee-projects/01-2024/testando-javascript.git"
+  },
+  "author": "Felipe Nolleto Nascimento",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/codeminer-42/trainee-projects/01-2024/testando-javascript/issues"
+  },
+  "homepage": "https://gitlab.com/codeminer-42/trainee-projects/01-2024/testando-javascript#readme",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^1.2.1",
+    "vitest": "^1.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "babel-register-esm": "^1.2.5"
+  },
+  "engines": {
+    "node": ">=20.10"
+  }
+}
