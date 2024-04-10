@@ -1,11 +1,5 @@
 # Testando Javascript
 
-## Desafio
-
-Gist do desafio: https://gist.github.com/nolleto/03c7639ce2d7cd6b9c54d458bac8631d
-
-Slides: https://docs.google.com/presentation/d/1IAd__O2SJTdD895zzyTAgDeDsGaE4fPjrZ3artlpau8/edit?usp=sharing
-
 ## Setup
 
 Estamos usando a versão `v20.10` do NodeJS nesse projeto.
